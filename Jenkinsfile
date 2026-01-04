@@ -3,7 +3,7 @@ pipeline {
     tools { nodejs "node"}
     environment {
         imageName = "mmadan/jenkins-app"
-        registryCredential = 'docker-hub-credential'
+        registryCredential = 'docker-hub-credentials'
         dockerImage = ''
     }
     stages {
