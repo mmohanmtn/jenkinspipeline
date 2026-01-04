@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools { nodejs "node"}
     environment {
-        image = "mmadan/jenkins-app"
+        imageName = "mmadan/jenkins-app"
         registryCredential = 'docker-hub-credential'
         dockerImage = ''
     }
