@@ -10,7 +10,6 @@ pipeline {
         stage("Install Dependencies"){
             steps {
                 sh 'npm install'
-                sh 'date'
             }
         }
         stage("Test"){
